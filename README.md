@@ -1,4 +1,4 @@
-# E-commerce Challenge CLT - FastAPI
+# E-commerce Challenge - FastAPI
 
 ## Requisitos
 
