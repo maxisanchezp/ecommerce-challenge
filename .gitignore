@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+.env
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de IDEs (opcional)
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# Otros archivos temporales
+*.swp
+*.DS_Store
+
+# pytest cache
+.pytest_cache/
