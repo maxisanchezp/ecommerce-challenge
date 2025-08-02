@@ -4,11 +4,13 @@ from sqlalchemy.orm import Session
 from datetime import timedelta
 from passlib.context import CryptContext
 
-from app import crud, models, schemas
-from app.models import SessionLocal, engine, User
-from app.queue import publish_order_message
-from app.external import get_external_product
-from app.dependencies import (
+import crud
+import models 
+import schemas
+from models import SessionLocal, engine, User
+from message_queue import publish_order_message
+from external import get_external_product
+from dependencies import (
     get_current_user,
     get_api_key,
     create_access_token,

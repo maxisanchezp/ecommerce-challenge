@@ -9,7 +9,7 @@ from sqlalchemy import (
     Boolean,
 )
 from sqlalchemy.orm import sessionmaker, declarative_base, relationship
-from app.settings import DATABASE_URL
+from settings import DATABASE_URL
 from datetime import datetime
 
 Base = declarative_base()

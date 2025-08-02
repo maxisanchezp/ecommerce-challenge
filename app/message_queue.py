@@ -1,6 +1,7 @@
 import pika
 import json
 
+
 RABBIT_HOST = 'localhost'
 RABBIT_QUEUE = 'orders'
 

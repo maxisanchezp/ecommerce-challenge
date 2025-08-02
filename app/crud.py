@@ -1,7 +1,8 @@
 from sqlalchemy.orm import Session
 from typing import List
 
-from app import models, schemas
+import models
+import schemas
 
 ### PRODUCTOS
 

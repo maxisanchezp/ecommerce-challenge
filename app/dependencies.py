@@ -4,7 +4,7 @@ from jose import JWTError, jwt
 from datetime import datetime, timedelta
 from typing import Optional
 
-from app.models import SessionLocal, User, ApiKey
+from models import SessionLocal, User, ApiKey
 
 
 # JWT Config

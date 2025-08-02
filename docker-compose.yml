@@ -16,7 +16,7 @@ services:
     image: rabbitmq:3-management
     ports:
       - "5672:5672"
-      - "15672:15672"  # UI management
+      - "15672:15672" # UI management
 
   web:
     build: .
@@ -30,7 +30,7 @@ services:
       RABBITMQ_URL: "amqp://guest:guest@rabbitmq:5672/"
     volumes:
       - ./app:/app
-    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 volumes:
   pgdata:
